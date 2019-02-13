@@ -1,0 +1,25 @@
+{
+  "name": "example-yagss-site",
+  "version": "0.1.0",
+  "description": "A collection of demos of how to build web sites with yagss",
+  "scripts": {
+    "serve": "node node_modules/yagss/index.js serve",
+    "build": "node node_modules/yagss/index.js build",
+    "cleanbuild": "node node_modules/yagss/index.js cleanbuild",
+    "start": "node node_modules/yagss/index.js start",
+    "cleanstart": "node node_modules/yagss/index.js cleanstart",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "yagss": "^0.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3"
+  }
+}
