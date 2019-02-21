@@ -13,6 +13,7 @@
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "recharts": "^1.5.0",
     "yagss": "^0.1.3"
   },
   "devDependencies": {

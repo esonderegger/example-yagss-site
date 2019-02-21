@@ -1,0 +1,24 @@
+.article {
+  pre {
+    @include figure;
+    display: block;
+    font-family: $mono-font-family;
+    line-height: 1.4;
+    padding: 1em;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+
+  figure {
+    @include figure;
+    font-family: $sans-font-family;
+    padding: .25em 1em;
+  }
+
+  figcaption {
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin: .25em 0 .5em;
+    text-align: center;
+  }
+}

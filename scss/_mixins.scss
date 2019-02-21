@@ -1,0 +1,10 @@
+@mixin figure {
+  background-color: $white;
+  border: 1px solid $gray-light;
+  border-radius: .5em;
+  color: $gray-med-dark;
+  font-size: .75em;
+  margin: 0 auto .75em;
+  max-width: 54em;
+  overflow-x: auto;
+}

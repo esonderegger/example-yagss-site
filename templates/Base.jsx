@@ -15,8 +15,8 @@ export default props => (
     <body>
       <section className="site-header">
         <header>
-          <h1>Hello!</h1>
-          <h2>This is a new site made with Yagss</h2>
+          <h1>Example Yagss Site</h1>
+          <h2>This is an open-source example of how to make a site with Yagss.</h2>
         </header>
         <nav>
           <ul>
