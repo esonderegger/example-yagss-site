@@ -1,4 +1,40 @@
 .article {
+  margin: 0 auto;
+  max-width: 42em;
+  padding: 1.5em .5em;
+
+  header {
+    border-bottom: 1px solid $gray3;
+    margin: 0 auto .75em;
+    max-width: 36em;
+    padding: 0 0 .5em;
+  }
+
+  h1 {
+    font-weight: 500;
+    margin: .5em 0 .2em;
+
+    a {
+      color: $gray8;
+    }
+  }
+
+  p,
+  ul {
+    margin: 1em auto;
+    max-width: 36em;
+
+    code {
+      background-color: $gray0;
+      border: 1px solid $gray4;
+      border-radius: .3em;
+      color: $gray7;
+      font-family: $mono-font-family;
+      font-size: .75em;
+      padding: .2em;
+    }
+  }
+
   pre {
     @include figure;
     display: block;

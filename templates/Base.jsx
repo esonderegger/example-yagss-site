@@ -16,12 +16,13 @@ export default props => (
       <section className="site-header">
         <header>
           <h1>Example Yagss Site</h1>
-          <h2>This is an open-source example of how to make a site with Yagss.</h2>
+          <h2>An open-source example of how to make a site with Yagss</h2>
         </header>
         <nav>
           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About Yagss</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="https://github.com/esonderegger/example-yagss-site">Source</a></li>
           </ul>
         </nav>
       </section>

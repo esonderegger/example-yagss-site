@@ -7,6 +7,8 @@ description: A brief introduction into how to build a site with yagss.
 A few design beliefs drive the feature set Yagss aims to provide.
 
 - The source folder should contain the original, unoptimized assets for each post and page. For example, an image in the source folder should be the high-resolution jpeg file with no compression exported out of Lightroom/Photoshop. I believe the equivalent for text content is a combination of yaml for the post's metadata and markdown for the post's content.
+- The destination folder should contain the optimized assets that are suitable for publication. For example, in the destination folder there should be multiple sizes of compressed jpegs for each high-resolution image in the source folder.
+- The build tool should be responsible for generating the entirety of the destination folder from a combination of the source folder, helper code, and the site configuration. In other words, the destination folder should be disposable.
 
 Yagss makes a few assumptions about how the site's source files are structured:
 

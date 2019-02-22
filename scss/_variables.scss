@@ -1,13 +1,32 @@
-$sans-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$sans-font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 $mono-font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
 
 $black: #000;
-$gray-dark: #333;
-$gray-light: #d0d0d0;
-$gray-med-dark: #555;
-$gray-medium: #888;
 $white: #fff;
 
-$background-color: #f0f0f0;
-$text-color: #313131;
-$primary-color: #2277ff;
+// Thanks to https://yeun.github.io/open-color/ for this color scheme
+$gray0: #f8f9fa;
+$gray1: #f1f3f5;
+$gray2: #e9ecef;
+$gray3: #dee2e6;
+$gray4: #ced4da;
+$gray5: #adb5bd;
+$gray6: #868e96;
+$gray7: #495057;
+$gray8: #343a40;
+$gray9: #212529;
+
+$blue0: #e7f5ff;
+$blue1: #d0ebff;
+$blue2: #a5d8ff;
+$blue3: #74c0fc;
+$blue4: #4dabf7;
+$blue5: #339af0;
+$blue6: #228be6;
+$blue7: #1c7ed6;
+$blue8: #1971c2;
+$blue9: #1864ab;
+
+$background-color: $gray1;
+$text-color: $gray8;
+$primary-color: $blue6;
