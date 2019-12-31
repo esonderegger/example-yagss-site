@@ -20,9 +20,11 @@ export default class PieChartDemo extends PureComponent {
         <PieChart>
           <Legend />
           <Pie dataKey="value" data={data} fill="#dee2e6" label>
-          {
-            data.map((entry, index) => <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />)
-          }
+            {
+              data.map((entry, index) => (
+                <Cell key={entry.name} fill={COLORS[index % COLORS.length]} />
+              ))
+            }
           </Pie>
           <Tooltip />
         </PieChart>
