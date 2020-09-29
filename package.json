@@ -23,7 +23,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "recharts": "^1.5.0",
-    "yagss": "^0.1.6"
+    "yagss": "^0.2.2"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
